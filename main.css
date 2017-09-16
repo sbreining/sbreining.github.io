@@ -10,17 +10,51 @@ body, html {
   background-size: cover;
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: 600;
-  border-style: solid;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  margin: 0% 10%;
-}
-
 .navtext {
   color: white;
   opacity: 1;
+}
+
+.leftmini {
+  background: #DDDDDD;
+  opacity: 0.5;
+  height: 50%;
+  width: 50%;
+  margin: 23% 5%;
+}
+
+.leftmain {
+  width: 90%;
+  height: 70%;
+  background: white;
+  opacity: 0.9;
+  margin: 10% 5%;
+}
+
+.rightmini {
+  background: #DDDDDD;
+  float: right;
+  opacity: 0.5;
+  height: 50%;
+  width: 50%;
+  margin: 23% 5% 23% 0%;
+}
+
+.rightmain {
+  background: white;
+  opacity: 0.8;
+  width: 90%;
+  height: 70%;
+  float: right;
+  margin: 15% 5%;
+}
+
+.vertical-align {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.studmuffin {
+  height: 80%;
 }
