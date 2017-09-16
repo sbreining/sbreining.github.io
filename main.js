@@ -1,11 +1,11 @@
-$(".navbartext").on({
-    mouseenter: function (){
-        $(this).css("color", "white");
-    },
-    mouseleave: function (){
-        $(this).css("color", "black");
-    },
-    click: function (){
+$(".navtext").on({
+  mouseenter: function (){
+    $(this).css("color", "blue");
+  },
+  mouseleave: function (){
+    $(this).css("color", "white");
+  },
+  click: function (){
         // here is where div slids and disappears.
         // Here we'll use show and hide I think.
         // Just need to implement the slide effects.
@@ -42,5 +42,5 @@ $(".navbartext").on({
         // As it stands right now, I think what I want to do is shrink
         // the focused element down, and move it to the left and right
         // sides of the page. To the bottom of the line.
-    }
+  }
 });
