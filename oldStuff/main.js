@@ -1,3 +1,4 @@
+// Not going to use jQuery anymore, but want to replicate functionality.
 $(".navtext").on({
   mouseenter: function (){
     $(this).css("color", "black");
